@@ -1,0 +1,96 @@
+* {
+    color: azure;
+}
+
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bg {
+    background-color: #181818;
+}
+
+.content-bg {
+    background-color: #1f1f1f;
+}
+
+.text-brand{
+    color: #ef4089;
+}
+
+.textwhite{
+    color: azure;
+}
+
+.about-text{
+    font-size: 30px;
+}
+
+.bg-base{
+    background-color: #252525;
+}
+
+.shadow-effect {
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover{
+    box-shadow: -6px 6px 0 0 #ef4089;
+}
+
+.iconbox{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    font-size: 32px;
+    background-color: #ef4089;
+    color: #252525;
+}
+
+.btn-custom {
+    padding: 12px 28px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn-custom-brand {
+    background-color: #ef4089;
+    border-color: #ef4089;
+    color: #fff;
+}
+
+.btn-custom-brand:hover,
+.btn-custom-brand:focus{
+    background-color: #bd4485;
+    color: #252525;
+    border-color: #bd4485;
+}
+
+.navbar .nav-item .navlink.active{
+    background-color:#ef4089;
+}
+
+.fsize-20{
+    font-size: 20px;
+}
+
+.footer-bg {
+    background-color: #181818;
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #ef4089; }
+  }
+
+
+  .wrap {
+    animation-name: blink-caret; 
+    animation-duration: 1s; 
+    animation-iteration-count: infinite;
+  }
